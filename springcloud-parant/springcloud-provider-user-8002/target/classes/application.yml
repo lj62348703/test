@@ -1,0 +1,23 @@
+server:
+ port: 8002
+ 
+spring:
+ datasource:
+  type: com.alibaba.druid.pool.DruidDataSource
+  driver-class-name: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/zmn?characterEncoding=utf-8
+  username: root
+  password: root
+  initialSize: 5
+  minIdle: 5
+  maxActive: 20
+  maxWait: 60000
+  initialSize: 5
+  maxPoolPreparedStatementPerConnectionSize: 20
+ application:
+  name: eureka-provider
+  
+eureka:
+ client:
+  service-url:
+   defaultZone: http://127.0.0.1:8081/eureka/
