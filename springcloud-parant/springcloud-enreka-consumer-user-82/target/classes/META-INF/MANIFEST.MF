@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: springcloud-enreka-consumer-user-82
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: junliu
+Implementation-Vendor-Id: com.zy
+Build-Jdk: 1.8.0_121
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/springcloud-parant/springcloud-enreka-consumer-user
+ -82
+Created-By: Maven Integration for Eclipse
+
